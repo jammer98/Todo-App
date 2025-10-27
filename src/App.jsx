@@ -47,8 +47,8 @@ function App() {
   return (
     <TodoProvider value={{todos,addtodo,updatetodo,deletetodo,toggle_complete}}>
       {/* these values are u nder two curly brackets bcz we are destructuring the values present in the context via provider */}
-     <div className="bg-[#172842] min-h-screen py-8">
-                <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-white">
+     <div className="bg-[#172842] min-h-screen py-8 flex justify-center items-center">
+                <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg  text-white bg-black p-6">
                     <h1 className="text-2xl font-bold text-center mb-8 mt-2">Manage Your Todos</h1>
                     <div className="mb-4">
                         {/* Todo form goes here */} 
